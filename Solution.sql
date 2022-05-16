@@ -95,8 +95,8 @@ where hair_color = "red" and gender = "female" and height >= 65
 and car_make = "Tesla" and car_model = "Model S"         
 
 /*To check the correct answer*/
-INSERT INTO solution VALUES (1, 'Miranda Priestly');
-SELECT value FROM solution;
+INSERT INTO solution VALUES (1, 'Miranda Priestly')
+SELECT value FROM solution
 
 /* Congrats, you found the brains behind the murder! Everyone in SQL City hails you as the greatest SQL detective of all time. 
 Time to break out the champagne! */
