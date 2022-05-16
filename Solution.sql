@@ -85,14 +85,14 @@ I know that she attended the SQL Symphony Concert 3 times in December 2017.
 */
  
 /*Fitting in all the relevant in the query to get the women planner behind the murder */
-select *
-From drivers_license 
-join person
-on drivers_license.id = person.license_id
-join facebook_event_checkin
-on person.id = facebook_event_checkin.person_id
-where hair_color = "red" and gender = "female" and height >= 65 
-and car_make = "Tesla" and car_model = "Model S"         
+SELECT *
+FROM drivers_license 
+JOIN person
+ON drivers_license.id = person.license_id
+JOIN facebook_event_checkin
+ON person.id = facebook_event_checkin.person_id
+WHERE hair_color = "red" AND gender = "female" AND height >= 65 
+AND car_make = "Tesla" AND car_model = "Model S"         
 
 /*To check the correct answer*/
 INSERT INTO solution VALUES (1, 'Miranda Priestly')
